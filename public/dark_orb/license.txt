@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dark Orb
+* source:	https://sketchfab.com/3d-models/dark-orb-1f2a74fe4150409d879a6c00c11eeb1c
+* author:	Mashud786 (https://sketchfab.com/Mashud786)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dark Orb" (https://sketchfab.com/3d-models/dark-orb-1f2a74fe4150409d879a6c00c11eeb1c) by Mashud786 (https://sketchfab.com/Mashud786) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
