@@ -1,23 +1,23 @@
-import React from "react";
 import {
-  SimpleGrid,
   Box,
-  Heading,
-  Text,
   Button,
   Grid,
   GridItem,
+  Heading,
   Image,
+  SimpleGrid,
+  Text,
 } from "@chakra-ui/react";
+import React from "react";
 import { Link as Scroll } from "react-scroll";
-import react from "../Images/react.png";
-import chakraUI from "../Images/chakraUI.png";
-import web3js from "../Images/web3js.png";
-import solidity from "../Images/solidity.png";
-import javascript from "../Images/javascript.png";
 import figma from "../Images/figma.png";
+import graphql from "../Images/graphql.png";
 import nextjs from "../Images/nextjs.png";
-import nodejs from "../Images/nodejs.png";
+import react from "../Images/react.png";
+import solidity from "../Images/solidity.png";
+import tailwind from "../Images/tailwind.png";
+import typescript from "../Images/typescript.png";
+import web3js from "../Images/web3js.png";
 
 function AboutSkills() {
   return (
@@ -38,13 +38,12 @@ function AboutSkills() {
           >
             <Heading fontSize="3xl">About Me</Heading>
             <Text mt="10">
-              I'm a web developer and product manager currently focused on web3.
-              A speedy learner and a problem solver. I'm an active member of the
-              NFT and crypto community where I spend a lot of time interacting
-              and investing. Passionate about innovation in the web3 space and
-              how it can impact our digital future. I'm interested in working on
-              innovative projects in the web3 space where I'm open to both
-              development and product management.
+              Hi, I'm Miguel a frontend developer specializing in web3 and
+              Blockchain gaming. I have experience with many modern web dev
+              technologies including React, Next.js, and . I'm passionate about
+              creating decentralized games and constantly expanding my knowledge
+              of this innovative technology. Let's work together to bring your
+              vision to life.
             </Text>
             <Scroll to="contact" smooth={true} duration={1000}>
               <Button mt="5" p="5" mr="5" variant="fill">
@@ -105,10 +104,10 @@ function AboutSkills() {
                 }}
               >
                 <Box borderWidth="2px" borderColor="#F456F1">
-                  <Image src={chakraUI} />
+                  <Image src={tailwind} />
                 </Box>
                 <Text mt="3" textAlign="center">
-                  Chakra UI
+                  Tailwind
                 </Text>
               </GridItem>
               <GridItem
@@ -144,10 +143,10 @@ function AboutSkills() {
                 }}
               >
                 <Box borderWidth="2px" borderColor="#F456F1">
-                  <Image src={javascript} />
+                  <Image src={typescript} padding={5} />
                 </Box>
                 <Text mt="3" textAlign="center">
-                  JS
+                  Typescript
                 </Text>
               </GridItem>
               <GridItem
@@ -157,10 +156,10 @@ function AboutSkills() {
                 }}
               >
                 <Box borderWidth="2px" borderColor="#F456F1">
-                  <Image src={nodejs} />
+                  <Image src={graphql} />
                 </Box>
                 <Text mt="3" textAlign="center">
-                  NodeJS
+                  GraphQL
                 </Text>
               </GridItem>
               <GridItem

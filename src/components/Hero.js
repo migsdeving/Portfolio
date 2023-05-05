@@ -1,6 +1,6 @@
-import { Box, Heading, SimpleGrid, Button } from "@chakra-ui/react";
-import Model from "../model";
+import { Box, Button, Heading, SimpleGrid } from "@chakra-ui/react";
 import { Link as Scroll } from "react-scroll";
+import Model from "../model";
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
       <SimpleGrid alignItems="center" columns={[1, 1, 2, 2]} gap={50}>
         <Box>
           <Heading fontSize="3xl">
-            Hi! I'm Miguel.<br></br> I build and manage web3 products.
+            Hi! I'm Miguel.<br></br> I make frontend development fun.
           </Heading>
           <Scroll to="contact" smooth={true} duration={1000}>
             <Button mt="5" p="5" mr="5" variant="fill">

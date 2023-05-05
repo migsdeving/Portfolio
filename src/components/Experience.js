@@ -1,30 +1,30 @@
-import React from "react";
 import {
-  Heading,
   Box,
-  Image,
-  useDisclosure,
-  Fade,
-  Text,
-  Link,
   Button,
+  Fade,
   HStack,
+  Heading,
   IconButton,
+  Image,
+  Link,
+  Text,
+  useDisclosure,
 } from "@chakra-ui/react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import eighteighteight from "../Images/888project.jpg";
-import shapes from "../Images/shapesproject.jpg";
-import cryptogem from "../Images/thecryptogem.jpg";
+import React from "react";
 import { FaReact } from "react-icons/fa";
 import {
   SiChakraui,
   SiJavascript,
-  SiWeb3Dotjs,
   SiSolidity,
+  SiWeb3Dotjs,
   SiWordpress,
 } from "react-icons/si";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import eighteighteight from "../Images/888project.jpg";
+import shapes from "../Images/shapesproject.jpg";
+import cryptogem from "../Images/thecryptogem.jpg";
 
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
@@ -107,7 +107,7 @@ function Experience() {
         mr="auto"
         ml="auto"
       >
-        Experience
+        Some of my work...
       </Heading>
 
       <Box display={["none", "none", "block", "block"]}>
